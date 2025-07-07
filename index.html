@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinay's Python Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Abhinay's Python Dictionary</h1>
+    </header>
+    <nav>
+        <a href="#part1">Keywords</a>
+        <a href="#part2">Functions</a>
+        <a href="#part3">Data Types</a>
+        <a href="#part4">Modules</a>
+        <a href="#part5">Errors</a>
+        <a href="#part6">Tkinter</a>
+        <a href="#part7">File Handling</a>
+        <a href="#part8">OOP</a>
+        <a href="#part9">Loops</a>
+        <a href="#part10">Functions & Args</a>
+        <a href="#part11">Data Structures</a>
+    </nav>
+    <div class="content">
+     
+     <section id="part1">
+    <h2>Part 1: Python Keywords</h2>
+    <pre>
+False - Boolean value jo jhooth (galat) dikhata hai
+True - Boolean value jo sach dikhata hai
+None - Khaali value (kuch nahi)
+and - Do condition dono true honi chahiye
+or - Kisi ek condition true ho to chalega
+not - Condition ka ulta karega
+if - Agar condition true ho to
+elif - Agar dusri condition check karni ho
+else - Agar sab condition galat ho
+while - Jab tak condition true hai, repeat karo
+for - Fixed baar repeat karne ke liye
+break - Loop ko todta hai
+continue - Loop skip karke next chalu karta hai
+def - Function banane ke liye
+return - Function se value wapas bhejna
+import - Library use karne ke liye
+from - Library ka specific part lena
+as - Library ka naam short karna
+class - Object banane ke liye
+try - Error handle karne ki koshish
+except - Error aane par kya karna hai
+raise - Apna error khud throw karna
+finally - Try-except ke baad hamesha chalega
+is - Compare object identity
+in - Check karo value list mein hai ya nahi
+pass - Khaali block ke liye (nothing)
+lambda - Chhota anonymous function
+with - Resource manage karne ke liye
+assert - Condition check karo, galat ho to error
+del - Variable ya item ko delete karo
+global - Function ke bahar ke variable ko use karo
+nonlocal - Nested function ka outer variable
+yield - Generator function se value dena
+async - Asynchronous code likhne ke liye
+await - Async function ka result ka wait karna
+    </pre>
+</section><section id="part2">
+    <h2>Part 2: Built-in Functions</h2>
+    <pre>
+print() - Screen par output dikhata hai
+input() - User se input leta hai
+len() - Length ya size batata hai
+type() - Variable ka type batata hai
+int() - Number ko integer mein convert karta hai
+float() - Number ko decimal mein convert karta hai
+str() - Kisi bhi value ko string banata hai
+list() - List banata hai
+dict() - Dictionary banata hai
+range() - Range of numbers banata hai
+sum() - Sab numbers ka total karta hai
+max() - Sabse bada number batata hai
+min() - Sabse chhota number batata hai
+abs() - Absolute value (negative ko positive banata hai)
+round() - Number ko round karta hai
+sorted() - List ko sort karta hai
+reversed() - List ko ulta karta hai
+enumerate() - List ke item ke saath index bhi deta hai
+zip() - Do lists ko pair bana ke combine karta hai
+map() - Sab items pe ek function apply karta hai
+filter() - Sirf selected items rakhta hai
+all() - Sab true hain ya nahi check karta hai
+any() - Koi bhi true hai ya nahi check karta hai
+help() - Python object ke baare mein madad deta hai
+id() - Object ka unique ID deta hai
+    </pre>
+</section><section id="part3">
+    <h2>Part 3: Data Types and Structures</h2>
+    <pre>
+int - Integer (poora number)
+float - Decimal number
+str - Text ya string
+bool - True ya False
+list - Item ka group (change ho sakta hai)
+tuple - Item ka group (change nahi hota)
+set - Unique items ka group
+dict - Key-value pair ka data
+complex - Real + Imaginary number
+bytes - Binary data
+bytearray - Changeable binary data
+memoryview - Memory ka direct access
+NoneType - Khaali ya 'nothing'
+range - Ek number range
+frozenset - Set jo change nahi ho sakta
+str methods - String functions jaise upper(), lower()
+list methods - List ke tools jaise append(), pop()
+dict methods - Dictionary ke tools jaise get(), keys()
+set methods - Set ke tools jaise add(), remove()
+tuple methods - Tuple ke limited methods jaise count(), index()
+    </pre>
+</section><section id="part4">
+    <h2>Part 4: Common Modules and Libraries</h2>
+    <pre>
+math - Mathematics ke functions (sqrt, ceil, floor, etc.)
+random - Random number ya choice generate karta hai
+datetime - Date aur time ka kaam karta hai
+time - Delay aur timing ke liye
+os - Operating system ke sath interact karta hai
+sys - Python system ke info ke liye
+statistics - Data ka analysis jaise mean, median
+re - Regular expressions ke liye
+json - JSON data read/write karne ke liye
+csv - CSV file read/write karne ke liye
+platform - Computer system ki info deta hai
+calendar - Calendar related kaam ke liye
+collections - Extra data types jaise Counter, deque
+itertools - Combinations aur looping tools
+functools - Functions ko modify karne ke tools
+urllib - Web requests bhejne ke liye
+tkinter - GUI apps banane ke liye
+requests - Web APIs se data lene ke liye
+PIL - Image ko process karne ke liye
+    </pre>
+</section><section id="part5">
+    <h2>Part 5: Errors and Exceptions</h2>
+    <pre>
+SyntaxError - Jab syntax galat ho
+NameError - Jab variable ka naam nahi milta
+TypeError - Galat data type se kaam karne par
+ValueError - Sahi type, lekin galat value
+IndexError - List ke range ke bahar access karne par
+KeyError - Dictionary me key na mile
+AttributeError - Jab attribute exist nahi karta
+ImportError - Module import karne me problem
+ModuleNotFoundError - Module milta hi nahi
+ZeroDivisionError - Zero se divide karne par
+IndentationError - Sahi tarike se indent nahi kiya
+FileNotFoundError - File nahi milti
+IOError - Input-output error
+RuntimeError - Program run ke dauraan error
+AssertionError - Assertion galat hone par
+Exception - Sabhi errors ka base class
+KeyboardInterrupt - User ne program rok diya
+MemoryError - Memory bahut zyada use karne par
+OverflowError - Number bahut bada ho jaata hai
+StopIteration - Iterator khatam ho gaya
+    </pre>
+</section><section id="part6">
+    <h2>Part 6: Tkinter GUI Words</h2>
+    <pre>
+Tk - Main window create karta hai
+mainloop - Window ko chalata hai jab tak band na kare
+Label - Text dikhata hai screen par
+Button - Click karne wala button
+Entry - Text input lene ke liye box
+Text - Multi-line text input
+Checkbutton - Checkbox create karta hai
+Radiobutton - Option select karne ke liye button
+Frame - Container jisme aur widgets hote hain
+Canvas - Drawing ya shape banane ke liye
+pack - Widget ko window me place karta hai
+grid - Widget ko grid layout me place karta hai
+place - Exact x, y location me widget set karta hai
+command - Button ke click hone par function call karta hai
+get - Entry box se text nikalne ke liye
+insert - Entry ya Text box me text daalne ke liye
+delete - Entry ya Text box se text hataane ke liye
+END - Text ka end (last) batata hai
+config - Widget ke property ko badalne ke liye
+StringVar - Text ko variables se link karne ke liye
+    </pre>
+</section><section id="part7">
+    <h2>Part 7: File Handling</h2>
+    <pre>
+open - File ko open karne ke liye
+read - File se content padhne ke liye
+readline - File se ek line padhne ke liye
+readlines - File ki sabhi lines ko list me lene ke liye
+write - File me content likhne ke liye
+writelines - List of strings ko file me likhne ke liye
+close - File ko band karne ke liye
+with - File ko open aur auto close karne ke liye
+'r' - Read mode (file padhna)
+'w' - Write mode (purani file delete karke naya likhna)
+'a' - Append mode (file ke end me likhna)
+'x' - New file create karna (agar pehle se na ho)
+'b' - Binary mode
+'t' - Text mode (default)
+seek - File pointer ko kisi position me le jaata hai
+tell - File pointer ka current position batata hai
+truncate - File ka size cut karta hai
+flush - File ka buffer memory clear karta hai
+os.remove - File delete karne ke liye
+    </pre>
+</section><section id="part8">
+    <h2>Part 8: OOP (Object-Oriented Programming)</h2>
+    <pre>
+class - Blueprint ya design jisme object banaya jata hai
+object - Class ka real example
+__init__ - Constructor function, object create hote hi chalti hai
+self - Object ka reference hota hai
+method - Class ke andar function
+attribute - Object ki properties
+inheritance - Ek class doosri class ke feature le sakti hai
+super - Parent class ka method call karta hai
+encapsulation - Data ko private banakar safe rakhna
+abstraction - Sirf important info dikhana
+polymorphism - Ek function ka alag-alag form me kaam karna
+isinstance - Check karta hai ki object kis class ka hai
+hasattr - Check karta hai ki object me attribute hai ya nahi
+getattr - Attribute ka value return karta hai
+setattr - Object me attribute set karta hai
+delattr - Object se attribute hataata hai
+__str__ - Object ka string version return karta hai
+@classmethod - Class method banata hai
+@staticmethod - Normal function jo class se related ho sakta hai
+    </pre>
+</section>
+
+        <section id="part9">
+            <h2>Part 9: Loops & Conditionals</h2>
+            <pre>
+if - Condition check karta hai
+elif - Extra condition check karta hai
+else - Baaki bacha hua condition
+for - Loop ke liye (repeat karne ke liye)
+while - Condition true hone tak repeat karta hai
+break - Loop ko turant band karta hai
+continue - Current step skip karke next pe chala jaata hai
+range - Number series banata hai
+pass - Khaali block ke liye (kuch nahi karta)
+else with loop - Loop ke baad chalta hai agar break na ho
+nested loop - Loop ke andar doosra loop
+enumerate - Loop me index ke saath item deta hai
+zip - Do ya zyada lists ko pair karta hai
+all - Sabhi values True ho to True return karta hai
+any - Koi ek value True ho to True return karta hai
+            </pre>
+        </section>
+
+        <section id="part10">
+            <h2>Part 10: Functions & Arguments</h2>
+            <pre>
+def - Function define karta hai
+return - Function se value wapas deta hai
+parameter - Function ke definition me likha variable
+argument - Function ko call karte waqt pass kiya gaya value
+default argument - Jiska value pehle se set hota hai
+keyword argument - Function call me naam se value dena
+*args - Multiple positional arguments
+**kwargs - Multiple keyword arguments
+lambda - Short anonymous function
+docstring - Function ke description ke liye
+            </pre>
+        </section>
+
+        <section id="part11">
+            <h2>Part 11: Data Structures</h2>
+            <pre>
+list - Ordered collection
+tuple - Immutable list
+set - Unique values collection
+dict - Key-value pairs
+append - List me item add karta hai
+pop - List ka last item hataata hai
+keys - Dictionary ke keys return karta hai
+values - Dictionary ke values return karta hai
+items - Key-value pair return karta hai
+update - Dictionary me naya data add karta hai
+            </pre>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Abhinay's Python Dictionary | All Rights Reserved
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
